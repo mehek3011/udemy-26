@@ -8,8 +8,6 @@ void main()
     scanf("%d",&prev);
 
     printf("\nEnter the present month readings :");
-    int c;
-    while ((c = getchar()) != '\n' && c != EOF);;
     scanf("%d",&pres);
 
     units=pres-prev;
